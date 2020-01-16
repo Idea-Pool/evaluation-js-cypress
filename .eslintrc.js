@@ -2,16 +2,19 @@ module.exports = {
     "env": {
         "commonjs": true,
         "es6": true,
-        "node": true
+        "node": true,
+        "cypress/globals": true
     },
     "extends": "eslint:recommended",
     "globals": {
-        "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
+        "cy": true
     },
     "parserOptions": {
         "ecmaVersion": 2018
     },
+    "plugins": [
+        "cypress"
+    ],
     "rules": {
         "indent": [
             "error",
