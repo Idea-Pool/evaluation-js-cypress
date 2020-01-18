@@ -4,7 +4,7 @@
   "description": "This is a test-ware for evaluation of Cypress test automation tool.",
   "main": "-",
   "scripts": {
-    "test": "cypress run --browser chrome",
+    "test": "cypress run --browser chrome --reporter junit --reporter-options \"results/cypress-[hash].xml\"",
     "cy:open": "cypress open",
     "lint": "eslint cypress --fix"
   },
