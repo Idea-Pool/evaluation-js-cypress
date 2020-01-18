@@ -36,3 +36,4 @@ npm test
 
 1. It took 2 minutes to intall cypress as dependency
 1. Cypress takes >400 MB on file system
+1. `chromeWebSecurity` needed to be turned off for 3rd party site ([issue](https://github.com/cypress-io/cypress/issues/1951))

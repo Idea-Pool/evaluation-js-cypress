@@ -4,7 +4,7 @@
   "description": "This is a test-ware for evaluation of Cypress test automation tool.",
   "main": "-",
   "scripts": {
-    "test": "echo \"No tests defined\" && exit(1)",
+    "test": "cypress run --browser chrome",
     "cy:open": "cypress open",
     "lint": "eslint cypress --fix"
   },

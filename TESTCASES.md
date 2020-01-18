@@ -27,6 +27,11 @@
 
 # Test cases
 
+Tests should be exected on 1920x1080 (or maximized) or
+- [x] Google Chrome
+- [ ] Firefox
+- [ ] IE11.
+
 ## `TC-1` Checking landing pages elements
 
 1. **Given** https://angular.io URL is opened
