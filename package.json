@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/szikszail/evaluation-template#readme",
   "dependencies": {
-    "cypress": "^12.0.2",
+    "cypress": "^13.16.0",
     "eslint": "^8.43.0",
     "eslint-plugin-cypress": "^2.8.1",
     "husky": "^4.0.10"
